@@ -4,7 +4,7 @@ version = 0.1
 
 [default]
 [default.global.parameters]
-stack_name = "sam-gh-actions"
+stack_name = "sam-github-actions-test-lambda"
 
 [default.build.parameters]
 cached = true
