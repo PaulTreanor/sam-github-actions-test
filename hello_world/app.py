@@ -36,7 +36,7 @@ def lambda_handler(event, context):
     return {
         "statusCode": 200,
         "body": json.dumps({
-            "message": "hello world",
+            "message": "Change stack so it deploys on commit",
             # "location": ip.text.replace("\n", "")
         }),
     }
